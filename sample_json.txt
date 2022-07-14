@@ -1,0 +1,20 @@
+testing:
+{ 
+“call_type”:”train”,
+ “model_type”: “artifact”,
+“data”: [
+[“05”, “ceramic’], 
+[“07”, “lithic”, “scraper”],
+[“none”, “groundstone”, “mano”] 
+]
+}
+generator:
+{
+“call_type”: “generate”, 
+“data”:  {
+ "PL_number": "PL_7",
+    "count": 3,
+    "artifact_class": "ceramic",
+    "artifact_type": "Metate-Basin"
+  }
+}
